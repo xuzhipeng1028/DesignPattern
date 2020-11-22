@@ -23,3 +23,12 @@
 1. 定义一个功能接口(Product)，根据需要创建多个功能实现类(Phone);
 2. 定义一个工厂接口(ProductFactory)，创建多个工厂实现类(PhoneFactory)，每个实现类创建属于自己的功能对象;
 3. 每当需要创建新功能的对象的时候，只需要新添加一个工厂实现类及功能实现类,这样可以实现对修改关闭、对扩展开放。
+
+五：abstractfactory抽象工厂模式
+
+抽象工厂模式在工厂方法的基础上增加了产品族的概念，比如小米有手机和电脑，华为也有手机和电脑。
+1. 定义抽象产品类，比如Phone、Computer, 定义不同品牌的实现类，比如HuaWeiPhone、HuaWeiComputer、XiaoMiPhone、XiaoMiComputer'
+2. 定义抽象工厂类, 类里定义多个抽象方法，用于创建不同的产品，定义多个工厂类的实现类，比如HuaWeiFactory。
+
+
+
