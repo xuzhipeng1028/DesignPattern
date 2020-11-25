@@ -30,5 +30,10 @@
 1. 定义抽象产品类，比如Phone、Computer, 定义不同品牌的实现类，比如HuaWeiPhone、HuaWeiComputer、XiaoMiPhone、XiaoMiComputer;
 2. 定义抽象工厂类, 类里定义多个抽象方法，用于创建不同的产品，定义多个工厂类的实现类，比如HuaWeiFactory。
 
+六：facade门面模式
+
+1. 定义了cpu、memory、disk三个子模块及一个computer门面；
+2. 客户端只需要调用computer的启动和关闭方法，无需关心有几个子模块需要调用。
+
 
 
